@@ -1,5 +1,7 @@
-"use strict";
-jQuery(document).ready(function() {
+/*global define */
+define([], function () {
+    'use strict';
+
     var posWatchID,
     posOptions = {
       enableHighAccuracy: true,
@@ -197,6 +199,4 @@ jQuery(document).ready(function() {
             })
     });
 
-
-}); //end document ready
-
+});
